@@ -13,7 +13,7 @@ variable "Security_Group"{
 
 variable "AMIS" {
     type = map
-    defoult = {
+    default = {
         eu-central-2 = "ami-0357c9c90ab93c3f4"
         eu-central-1 = "ami-0745b7d4092315796"
         eu-south-1 = "ami-0a78fa219f0205da1"
